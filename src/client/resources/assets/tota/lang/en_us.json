@@ -1,0 +1,18 @@
+{
+  "item.tota.scrap_pickaxe": "Scrap Pickaxe",
+  "item.tota.tactical_pickaxe": "Tactical Pickaxe",
+  "item.tota.baseball_bat": "Baseball Bat",
+  "item.tota.spiked_baseball_bat": "Barbed Baseball Bat",
+  "item.tota.baton": "Baton",
+  "item.tota.fireaxe": "Fire Axe",
+  "item.tota.tactical_fireaxe": "Tactical Fire Axe",
+  "item.tota.katana": "Katana",
+  "item.tota.machete": "Machete",
+  "item.tota.bush_knife": "Bush Knife",
+  "item.tota.scrap_crowbar": "Scrap Crowbar",
+  "item.tota.scrap_hatchet": "Scrap Hatchet",
+  "item.tota.sledgehammer": "Sledgehammer",
+  "item.tota.tactical_crowbar": "Tactical Crowbar",
+  "item.tota.tactical_hatchet": "Tactical Hatchet",
+  "itemgroup.tota.tota_items": "Tools of the Apocalypse!"
+}

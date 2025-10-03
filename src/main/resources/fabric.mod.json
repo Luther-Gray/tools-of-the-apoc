@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "tota",
+	"version": "${version}",
+	"name": "Tools of the Apocalypse",
+	"description": "Tools of the Apocalypse is self-explanatory.It adds a variety of weapons and tools to help you on your next Gun x Zombie apocalypse modpack journey.",
+	"authors": [
+		"Luther Gray"
+	],
+	"contact": {
+		"homepage": "https://otherheaven.net",
+		"sources": "https://codeberg.org/LutherDev/TotA"
+	},
+	"license": "Mixed; see LICENSE file for details",
+	"icon": "assets/tota/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.otherheaven.tota.ToolsOfTheApocalypse"
+		],
+		"client": [
+			"net.otherheaven.tota.ToolsOfTheApocalypseClient"
+		]
+	},
+	"mixins": [
+		"tota.mixins.json",
+		{
+			"config": "tota.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"better-combat": "~2.0.4+1.21.1-fabric"
+	}
+}

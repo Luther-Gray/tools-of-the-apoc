@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "weapons",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "$": {
+      "item": "minecraft:flint"
+    },
+    "@": {
+      "item": "tota:baseball_bat"
+    }
+  },
+  "pattern": [
+    "#$#",
+    "$@$"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tota:spiked_baseball_bat"
+  }
+
+}
